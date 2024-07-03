@@ -22,6 +22,10 @@ flex-box {
     display: flex;
     justify-content: space-around;
   }
+  .imgheart{
+    height: 20px;
+    width: 20px;
+  }
   .headerrr{
     position: fixed;
     width: 100vw;
@@ -30,7 +34,7 @@ flex-box {
     text-decoration: none;
   }
 .container {
-    border: 5px dashed green;
+    
     display: flex;
     flex-direction: row;
     height: 90vh
@@ -39,37 +43,14 @@ flex-box {
     flex: 1;
     width: 100px;
     height: 100px;
-    background-color: gold;
     margin: 5px;
   }
-  .big {
-    flex: 2;
-    background-color: aqua;
-  }
-  .small {
-    flex: 1;
-    background-color: chartreuse;
-  }
+
   h1{
   margin: 0;
 
   }
   p{
     margin: 0;
-  }
-  .left {
-    display: flex;
-    flex-direction: column;
-    border: 5px solid blue;
-    flex: 1.5;
-    justify-content: center;
-    align-items: center;
-  }
-  .right {
-    border: 5px solid green;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   

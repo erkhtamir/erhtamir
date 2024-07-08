@@ -1,0 +1,11 @@
+.headerrr {
+    position: fixed;
+    width: 100vw;
+  }
+  .header {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+  }
+  

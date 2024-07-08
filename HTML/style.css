@@ -1,0 +1,33 @@
+.headerrr {
+    position: fixed;
+    width: 100vw;
+  }
+  .header {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+  }
+  .imgheart {
+    height: 20px;
+    width: 50px;
+  }
+  .icon {
+    display: flex;
+    gap: 15px;
+  }
+ 
+  .name {
+    font-size: 30px;
+  }
+  .ar {
+    margin-right: 20px;
+  }
+  
+.imghear {
+    height: 30px;
+    width: 30px;
+  }
+ .zurag{
+    
+ }

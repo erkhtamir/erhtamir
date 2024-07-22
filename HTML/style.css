@@ -16,7 +16,15 @@
     display: flex;
     gap: 15px;
   }
- 
+ .shopp{
+  height: 23px;
+  width: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+ }
   .name {
     font-size: 30px;
   }
@@ -29,5 +37,219 @@
     width: 30px;
   }
  .zurag{
-    
+    width: 100vw;
  }
+ .ug{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  padding: 20px;
+ }
+ .SHOP{
+color: white;
+ }
+  div a{
+    text-decoration: none
+  }
+  .zuragnuud{
+    display: flex ;
+  }
+   .zurrag{
+    display: flex;
+   }
+   .zuragg{
+    width: 100vw;
+    display: flex;
+   }
+h1{
+  margin: 0;
+}
+   .huree{
+    height: 50vw;
+    width: 50vw;
+   }
+   .container{
+    display: flex;
+   }
+header{
+  z-index: 1;
+  top: 0;
+}
+main{
+  margin-top: 73px;
+}
+   .relative{
+    position: relative;
+   }
+   .absolute{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: aliceblue;
+
+   }
+   .aaa{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    bottom: 50px;
+    left: 50px;
+    padding-top: 20px;
+
+   }
+
+   .erh{
+       width: 100vw;
+   }
+   .weekText{
+     font-size: 35px;
+   }
+   .useg{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+   }
+
+
+
+   .nike{
+    width: 368px; 
+    height: 300px;
+ border-radius: 23px;
+   }
+
+
+
+   p{
+     font-size: 20px;
+   }
+.product{
+  position: relative;
+}
+.open{
+  position: absolute;
+  bottom: 10px;
+  color: aliceblue;
+  left: 30px;
+}
+.too  {
+  color: black;
+  background-color: aliceblue;
+  width: 45px;
+  border-radius: 15%;
+  padding: 6px;
+}
+.too:hover{
+  background-color: beige;
+  cursor: pointer;
+}
+.three{
+  color: black;
+  background-color: aliceblue;
+  width: 45px;
+  border-radius: 15%;
+  padding: 6px;
+  
+}
+.three:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+.dorow{
+  display: flex;
+}
+.taw{
+  display: flex;
+
+}
+.zurgaa{
+  display: flex
+}
+.doloo{
+  display: flex;
+}
+
+
+
+
+.likii{
+     display: flex;
+     justify-content: space-around;
+}
+
+.hehe{
+  position: relative;
+  display: flex;
+     justify-content: space-around;
+  
+}
+.hehe img{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+
+}
+
+.heheeee{
+  position: absolute;
+  left: 90px;
+  bottom: 10px;
+  
+
+}
+.tamir{
+  display: flex;
+  width: 100%;
+  left: 60px;
+  bottom: 100px;
+}
+.mir{
+width: 40px;
+left: 90px;
+}
+ @media screen  and  ( max-width:480px) 
+ {
+
+ .garchig{
+  font-size: 14px;
+  }
+  .name{
+    font-size: 9px;
+  }
+  
+  .absolute h2 {
+    font-size: 16px;
+  }
+  .absolute h1 {
+    font-size: 20px;
+  }
+  .absolute h1{
+    font-size: 20px;
+  }
+  .ir{
+    font-size: 20px;
+  }
+  .ta{
+     font-size: 20px;
+  }
+
+  .nike {
+    width: 100vw;
+
+
+  }
+  .uul{
+    font-size: small;
+  }
+  
+  
+.likii{ 
+
+  flex-direction: column;
+}
+.product img{
+  width: 100vw;
+  flex-direction: column;
+}
+  }

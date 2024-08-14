@@ -1,0 +1,19 @@
+youtube_api.py
+import os
+import googleapiclient.discovery
+
+# Replace with your API key or OAuth token
+API_KEY = "YOUR_API_KEY"
+
+def get_video_info(video_id):
+    youtube = googleapiclient.discovery.build('youtube', 'v3', developerKey=API_KEY)
+    request = youtube.videos().list(
+        part="snippet",
+        id=video_id
+    )
+    response = request.execute()
+    return response
+
+video_id = "VIDEO_ID"
+video_info = get_video_info(video_id)
+print(video_info)
